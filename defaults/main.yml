@@ -1,2 +1,14 @@
+%YAML 1.1  # upgrades/defaults/main.yml  -*- mode: yaml -*-
+
+# Default values for upgrades
 ---
-# defaults file for upgrades
+# unattended upgrades desired
+upgrade: dist
+
+# unattended upgrades desired
+unattended: True
+
+# kernel version in base system
+# 12.04: 3.2.0-23
+# 14.04: 3.13.0-24
+baseversion: 3.13.0-24
